@@ -1,0 +1,76 @@
+/* Make Swiper take full width */
+.swiper {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  /* Center slides */
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; 
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Image styling */
+  .grid-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  h1 { 
+    font-size: 50px;
+    color: #10375D;
+    font-weight: bold;
+  }
+
+  /* Hover effect */
+  .grid-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Default for tablet/mobile: 2 columns per row */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    h1 {
+        font-size: 24px;
+        color: #10375D;
+        font-weight: bold;
+      }
+  }
+  
+  /* Tablet screens: 2 columns per row */
+  @media (min-width: 769px) and (max-width: 991px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+      h1{
+        font-size: 25px;
+        color: #10375D;
+        font-weight: bold;
+      }
+    }
+  
+  
+  /* Mobile screens: 2 columns per row */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+    }
+  }
+  
