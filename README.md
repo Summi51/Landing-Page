@@ -2,7 +2,7 @@
 
 A responsive and visually appealing website showcasing growth-driven tools and ROI optimization strategies. This project demonstrates the use of styled-components, responsive design, and React for building dynamic user interfaces.
 
-## Deploy: https://landing-page-nu-orcin-18.vercel.app/
+## Deploy: https://landing-page-iota-brown-25.vercel.app/
 
 ## Overview
 This project includes:
