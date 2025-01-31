@@ -10,7 +10,7 @@
     top: 0;
     margin: auto;
     left: 0;
-    width: 100%; 
+    width: 90%; 
     height: 100%; 
     background-size: cover;
     background-position: center;
@@ -57,9 +57,9 @@
   /* Styling for the header */
   h1 {
     text-align: center;
-    font-size: 1.8em; 
+    font-size: 3em; 
     margin-bottom: 10px;
-    color: #333;
+    color: #333333;
     font-weight: bold;
     margin-top: 20px;
   }

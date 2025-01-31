@@ -10,7 +10,7 @@ function Experiment(){
                     <h1 className="experiment">Why Experiment?</h1>
                     <h1 className="expert">Trust Experts Who <br />Deliver Results</h1>
                    
-<input type="text" placeholder="Enter your Mobile Number"/> <br />
+<input type="text" placeholder="Enter your Number"/> <br />
 <button>Get In Touch</button>
                 </div>
                 <div>
@@ -52,7 +52,7 @@ const Content = styled.div`
     line-height: 40px;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 0; 
 //   border: 2px solid green;
 
@@ -76,7 +76,7 @@ button {
     text-align: center; 
     white-space: nowrap;
     align-items: center;
-    margin-left: 80px; 
+    // margin-left: 80px; 
     //  float: left;  
 }
 
@@ -90,11 +90,11 @@ button:hover {
 
 .experiment {
     color: #12375D;
-    font-size: 40px;
+    font-size: 38px;
     display: flex;
     text-align: left;
     line-height: 2px;
-    margin-left: 80px;
+    // margin-left: 80px;                           
 }
 
 .expert {
@@ -103,7 +103,7 @@ button:hover {
     display: flex;
     text-align: left;
     line-height: 60px;
-    margin-left: 80px;
+    // margin-left: 80px;
 }
 
 input {
@@ -113,7 +113,7 @@ input {
     font-size: 20px;
     text-align: left;  
     border-radius: 8px;
-    margin-left: 80px;
+    // margin-left: 80px;
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
@@ -123,9 +123,7 @@ input {
     margin-bottom:20px
 }
 
-.expert {
 
-}
 
 }
 

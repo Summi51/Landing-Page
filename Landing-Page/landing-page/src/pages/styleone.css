@@ -27,7 +27,7 @@
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); */
     transition: transform 0.2s ease-in-out;
   }
   
@@ -70,7 +70,7 @@
   /* Mobile screens: 2 columns per row */
   @media (max-width: 768px) {
     .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+      grid-template-columns: repeat(2, 1fr); 
     }
   }
   
